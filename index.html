@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+	</br></br></br>
+	<div class="container-fluid">
+    	<div class="text-center">
+	
+
+    	<h1>Parlez nous de votre cible</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+	 <script type="text/javascript">
+function hideImage(){
+document.getElementById('imageBoy3').style.display='none';
+}
+function showImage(){
+document.getElementById('imageBoy3').style.display='inline';
+}
+</script>
+		</br></br></br></br></br>
+
+
+		
+ 
+		<div class="container-fluid">
+    		<div class="text-center">
+		<p>
+  		<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" onclick="showImage();"><img src="img/factory.png" class="center-block" alt="B2B"></a> 
+
+ 		 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-	expanded="false" aria-controls="multiCollapseExample1" onclick="hideImage();"><img src="img/factory.png" class="center-block" alt="B2C"></button>
+
+
+		</p>
+
+
+	<div class="row">
+ 	 <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+		
+	<div class="container-fluid">
+    	<div class="text-center">
+    		<img src="img/boy.png" class="center-block" alt="">
+		<img src="img/boy.png" class="center-block" alt="">
+		<img src="img/boy.png" class="center-block" alt="">
+		<img src="img/boy.png" class="center-block" alt="" id="imageBoy3">
+	</br></br>
+
+		
+
+		 <script type="text/javascript">
+
+  		$(document).ready(function() {
+    		var text_max = 123;
+    		$('#textarea_count').html(text_max + ' mots');
+
+   		 $('#comment').keyup(function() {
+       		 var text_length = $('#comment').val().length;
+        	var text_remaining = text_max - text_length;
+
+        	$('#textarea_count').html(text_remaining + ' mots');
+    		});
+		});
+ 		 </script>
+
+	
+
+		<div class="container">
+			<div class="row">
+			<div class="col-md-4">
+
+			</div>
+			</div>
+  		<div class="form-group">
+  		<label  for="comment">Plus d'informations:</label>
+ 		 <textarea class="form-control"  id="comment" rows="5" maxlength="123"></textarea>
+		</div>
+		<div id="textarea_count" class="badge pull-right"></div>
+		</div>
+
+
+		</div>
+		</div>
+	
+
+     		 </div>
+    		</div>
+  		</div>
+
+  		<div class="col">
+   		 <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+
+
+
+       <div class="container-fluid">
+    	<div class="text-center">
+    		<img src="img/boy.png" class="center-block" alt="">
+		<img src="img/boy.png" class="center-block" alt="">
+		<img src="img/boy.png" class="center-block" alt="">
+		</br></br>
+
+	 	 <script type="text/javascript">
+  		$(document).ready(function() {
+   		 var text_max = 123;
+    		$('#textarea_count').html(text_max + ' mots');
+
+    		$('#comment').keyup(function() {
+       		 var text_length = $('#comment').val().length;
+        	var text_remaining = text_max - text_length;
+
+        	$('#textarea_count').html(text_remaining + ' mots');
+    		});
+		});
+ 		 </script>
+
+	<div class="container">
+	<div class="row">
+	<div class="col-md-4">
+
+	</div>
+	</div>
+
+  	<div class="form-group">
+  	<label  for="comment">Plus d'informations:</label>
+  	<textarea class="form-control"  id="comment" rows="5" maxlength="123"></textarea>
+	</div>
+	<div id="textarea_count" class="badge pull-right"></div>
+	</div>
+
+		
+	</div>
+	</div>
+
+	
+      	</div>
+   	 </div>
+  	</div>
+ 	 </div>
+	</div>
+	
+	</div>
+	</div>
+	</div>
+	
+
+  </body>
+</html>
